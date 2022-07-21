@@ -1,5 +1,7 @@
 # git_cs361
 
+by John Kim for CS361 2022 Summer
+
 Steps on how to request data from the microservice I implemented using ZeroMQ for my partner’s individual project which is flashcards for SAT vocabulary.
 
 - STEP 1: My partner and I communicate for a time-window for me to keep my server.py running in my computer.
