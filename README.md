@@ -3,7 +3,9 @@
 by John Kim for CS361 2022 Summer
 
 Steps on how to request data from the microservice I implemented using ZeroMQ for my partner’s individual project which is flashcards for SAT vocabulary.
-
+- STEP 0: Install ZeroMQ. follow these steps (https://pypi.org/project/pyzmq/), but in short there are only two commnad line excutions you need (Mac OS terminal)
+  First command: brew install zeromq
+  Secnid command: python -m pip install pyzmq
 - STEP 1: My partner and I communicate for a time-window for me to keep my server.py running in my computer.
 - STEP 2: During an agreed time-window, I will keep running server.py in my computer.
 - STEP 3: My partner downloads client.py from this GitHub into his computer.
