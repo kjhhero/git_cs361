@@ -13,9 +13,15 @@ socket = context.socket(zmq.REP)
 socket.bind("tcp://*:5555")
 
 # Microservice
-def ran_num_gen(int):
+def ran_num_gen(input_int):
     int_str = ''
-    int_str = int_str + ','.join(str(random.randint(0, int)) for i in range(int))
+    num = list()
+    int_num = 1
+    while int_num <= input_int:
+        num.append(int_num)
+        int_num += 1
+    random.shuffle(num)
+    int_str = ','.join(str(x) for x in num)
     return int_str
 
 # Communication piping
